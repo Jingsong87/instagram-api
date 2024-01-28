@@ -289,18 +289,18 @@ $account_cookie = '';
 // print_r($get_account);
 
 tags_info(urlencode('hello'), [
-  'proxy' => 'hub-eu-1.litport.net:1337',
-  'auth' => 'z9lQ85:XjL7p8',
+  'proxy' => 'ip:port',
+  'auth' => 'logg:pass',
 ], $account_cookie);
 
 tags_info(urlencode('instagram'), [
-  'proxy' => 'hub-eu-1.litport.net:1337',
-  'auth' => 'z9lQ85:XjL7p8',
+  'proxy' => 'ip:port',
+  'auth' => 'logg:pass',
 ], $account_cookie);
 
 tags_info(urlencode('top'), [
-  'proxy' => 'hub-eu-1.litport.net:1337',
-  'auth' => 'z9lQ85:XjL7p8',
+  'proxy' => 'ip:port',
+  'auth' => 'logg:pass',
 ], $account_cookie);
 
 
